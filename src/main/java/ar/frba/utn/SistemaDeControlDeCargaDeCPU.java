@@ -45,7 +45,7 @@ public class SistemaDeControlDeCargaDeCPU {
 
             System.out.printf("T: %d, Carga CPU: %.2f\n", i, cargaActual);
 
-            // Sleep to simulate real-time passage (for demonstration purposes)
+            // Simular el tiempo de scan
             try {
                 Thread.sleep((long) (deltaTiempo * 1000));
             } catch (InterruptedException e) {
