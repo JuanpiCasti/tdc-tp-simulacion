@@ -31,13 +31,13 @@ public class SistemaDeControlDeCargaDeCPU {
     }
 
     public static void main(String[] args) {
-        SistemaDeControlDeCargaDeCPU controller = new SistemaDeControlDeCargaDeCPU(1.0, 0.1, 0.05, 75.0);
+        SistemaDeControlDeCargaDeCPU controlador = new SistemaDeControlDeCargaDeCPU(1.0, 0.1, 0.05, 75.0);
 
         double cargaActual = 40.0; // Carga inicial de CPU
         double deltaTiempo = 1.0; // Duracion de Scan
 
         for (int i = 0; i < 100; i++) {
-            double senalDeControl = controller.calcularSenalDeControl(cargaActual, deltaTiempo);
+            double senalDeControl = controlador.calcularSenalDeControl(cargaActual, deltaTiempo);
             cargaActual += senalDeControl * deltaTiempo; // Simular el efecto de la senal de control sobre la carga de CPU
 
             // Simulacion de perturbaciones (e.g., carga de trabajo variante, cambio de temperatura)
