@@ -23,3 +23,7 @@ Este proyecto implementa un sistema de control PID (Proporcional-Integral-Deriva
 ## Salida
 
 La salida mostrará las iteraciones del controlador, la señal de error, y la carga de CPU medida. Las perturbaciones se resaltarán en amarillo para facilitar su identificación.
+
+## Ejecución en Linea
+
+Alternativamente, el programa esta disponible para su ejecución a través de [este enlace.](https://replit.com/join/tguwkbqufv-hamamurasantiag). Clickear en el botón "Run" para iniciar la simulación.
